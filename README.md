@@ -18,6 +18,7 @@
   ## Installation
   To generate your own README, git clone the repo down to your local so you have the Node project on your local.
   Run npm install in order to install the following npm package dependencies as specified in the package.json
+  * inquirer
   
   ## Usage
   Run node index.js, the application uses the inquirer package to prompt you in the command line with a series of questions about your GitHub and about your project.
