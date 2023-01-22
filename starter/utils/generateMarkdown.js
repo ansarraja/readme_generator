@@ -47,7 +47,8 @@ function generateMarkdown(data) {
   ${data.installation}
   
   ## Usage
-  ${data.usage}
+  ${data.usage}\n
+  [Live Demo](https://drive.google.com/file/d/1DqnHSOMp2ldo6DRyqaS-l1j4nZQs4q6c/view)
   
   ## Contributing
   ${data.contribution}
@@ -57,7 +58,7 @@ function generateMarkdown(data) {
   
   ## Questions
   Any Questions? Please reachout to me at ${data.email}\n
-  In addition, you can view this project and others at https://github/${data.github}
+  You can view this project at https://github.com/${data.github}
 
 `;
 }
